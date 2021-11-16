@@ -18,5 +18,10 @@ public class Multiple_Exception {
         {
             System.out.println(obj.getClass().getName());
         }
+        //using finally
+        finally {
+            System.out.println("inside finally block");
+        }
+        System.out.println("end of the method");
     }
 }
