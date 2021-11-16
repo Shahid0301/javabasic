@@ -1,0 +1,20 @@
+// ques for exception handling of index out of bound  and number format exception
+import java.util.Scanner;
+ import java.util.InputMismatchException;
+ public class Main{
+ public static voi main(String[] args){
+ Scanner sc=new Scanner(System.in);
+ int[] arr=new int[5];
+ try{
+ for(int i=0;i<6;i++){
+ arr[i]=sc.nextInt();
+ }
+ }
+ catch(ArrayIndexOutOfBoundsException e){
+ Syteem.out.println("Index out of bounds");
+ }
+ catch(InputMismatchException e){
+ Syteem.out.println("mismatch");
+ }
+ }
+ }
