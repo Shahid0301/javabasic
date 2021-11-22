@@ -24,4 +24,4 @@ public class Multiple_Exception {
         }
         System.out.println("end of the method");
     }
-}
+}//
